@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Lista de productos de Supermercado</title>
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <h1 class="display-2 text-white">Lista de Productos de Supermercado</h1>
+    </div>
+    <div id="accordion">
+        <!--Frutas y verduras-->
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+              <h3>Frutas y Verduras</h3>
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-success"><kbd>Kiwi</kbd></li>
+                            <li class="list-group-item list-group-item-warning">Platano</li>
+                            <li class="list-group-item list-group-item-danger"><kbd>Tomate</kbd></li>
+                            <li class="list-group-item list-group-item-success">Aguacate</li>
+                            <li class="list-group-item list-group-item-warning"><kbd>Naranja</kbd></li>
+                            <li class="list-group-item list-group-item-danger">Habanero</li>
+                            <li class="list-group-item list-group-item-success"><mark>Brocoli</mark></li>
+                            <li class="list-group-item list-group-item-warning">Papa</li>
+                            <li class="list-group-item list-group-item-danger"><mark>Pimiento</mark></li>
+                          </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Carousel -->
+                        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                            <!-- Indicadores-->
+                            <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+                            </div>
+                        
+                            <!-- Carousel -->
+                            <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img src="https://www.gastronomiavasca.net/uploads/image/file/5587/w700_kiwi1.jpg" alt="Kiwi" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="https://dam.cocinafacil.com.mx/wp-content/uploads/2020/10/pl%C3%A1tano.jpg" alt="Platano" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bright_red_tomato_and_cross_section02.jpg/1200px-Bright_red_tomato_and_cross_section02.jpg" alt="Tomate" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://walmartcr.vtexassets.com/arquivos/ids/260367/Aguacate-Hass-Kg-4-A-6-Unidades-Por-Kg-Aproximadamente-1-26174.jpg?v=637735053843600000" alt="Aguacate" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://mexico.infoagro.com/wp-content/uploads/2017/01/Produccion-de-naranja.jpg" alt="Naranja" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.chedraui.com.mx/medias/2512659-00-CH515Wx515H?context=bWFzdGVyfHJvb3R8NDE1NzV8aW1hZ2UvanBlZ3xoYzEvaGJiLzEwODUyNDU5MTE4NjIyLmpwZ3xlOGRkNGIyNWNmMmYxYmFkNmNiMzNmZGQxMWNhMzU0ZWRkNjIxMDNmMWMzYTQ1MGYwODE4OWNiYzYzNWVmOTI4" alt="Habanero" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://elpoderdelconsumidor.org/wp-content/uploads/2016/11/brocoli.jpg" alt="Brocoli" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.ecured.cu/images/1/14/1603480088968.jpg" alt="Papa" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.65ymas.com/uploads/s1/16/82/54/pimiento_5_1242x621.jpeg" alt="Pimiento" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            </div>
+                        
+                            <!-- Controles / iconos -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--Carne y pescado-->
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                <h3>Carne, Pescado y Mariscos</h3>
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <uo class="list-group">
+                            <li class="list-group-item list-group-item-secondary">Pollo</li>
+                            <li class="list-group-item list-group-item-info"><dt>Sierra</dt></li>
+                            <li class="list-group-item list-group-item-light">Ribeye</li>
+                            <li class="list-group-item list-group-item-secondary"><dt>Pato</dt></li>
+                            <li class="list-group-item list-group-item-info">Conejo</li>
+                            <li class="list-group-item list-group-item-light"><dt>Huachinago</dt></li>
+                            <li class="list-group-item list-group-item-secondary">Chorizo</li>
+                            <li class="list-group-item list-group-item-info"><dt>Pulpo</dt></li>
+                            <li class="list-group-item list-group-item-light">Lechón</li>
+                          </ol>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Carousel -->
+                        <div id="demo2" class="carousel slide" data-bs-ride="carousel">
+
+                            <!-- Indicadores-->
+                            <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo2" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#demo2" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#demo2" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#demo2" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#demo2" data-bs-slide-to="4"></button>
+                            <button type="button" data-bs-target="#demo2" data-bs-slide-to="5"></button>
+                            <button type="button" data-bs-target="#demo2" data-bs-slide-to="6"></button>
+                            <button type="button" data-bs-target="#demo2" data-bs-slide-to="7"></button>
+                            <button type="button" data-bs-target="#demo2" data-bs-slide-to="8"></button>
+                            </div>
+                        
+                            <!-- Carousel -->
+                            <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img src="https://www.lavanguardia.com/files/og_thumbnail/uploads/2018/09/26/5e99833ed5c67.jpeg" alt="Pollo" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="https://www.atlantimex.com/productos/pescados/Resources/sierra1a.jpeg" alt="Sierra" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="http://cdn.shopify.com/s/files/1/0272/3269/8448/products/ribeyechoicederes600gramos_a61fef06-fef6-4e47-b1d7-1c77c6836538_1200x1200.jpg?v=1613067955" alt="Ribeye" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://s1.eestatic.com/2019/04/02/ciencia/nutricion/nutricion_387972895_119435861_1024x576.jpg" alt="Pato" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://masmit.com/274-large_default/conejo-entero-para-guisar.jpg" alt="Conejo" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://s.cornershopapp.com/product-images/3953908.jpg?versionId=IGJp1W8cb9WlYF9I6MU.FqvYQbRs.eH7" alt="Huachinango" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.gastronomiavasca.net/uploads/image/file/3280/chorizo_de_cocido.jpg" alt="Chorizo" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.pescaderiascorunesas.es/tienda-online/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/u/pulpo_edit_3.jpg" alt="Pulpo" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://http2.mlstatic.com/D_NQ_NP_695730-MLM32425442165_102019-O.jpg" alt="Lechon" class="d-block w-100" height="300" width="auto">
+                            </div>
+                            </div>
+                        
+                            <!-- Controles / iconos -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      
+       
+
+      <div class="row pt-3">
+          <div class="col-md-8">
+              <iframe width="800" height="600" src="https://www.youtube.com/embed/OA3Rjf32r24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-4">
+              <img class="py-3" src="https://i.makeagif.com/media/3-11-2016/Li9Hkc.gif" alt="">
+              <img src="https://i0.wp.com/media3.giphy.com/media/VTXzh4qtahZS/giphy.gif" alt="" height="350">
+              
+          </div>
+      </div>
+
+
+</body>
+</html>
