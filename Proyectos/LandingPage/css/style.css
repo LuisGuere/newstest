@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Fruktur', cursive;
+    src: url(https://fonts.google.com/share?selection.family=Fruktur    );
+}
+
+.bgr{
+    background-color: rgb(78, 20, 133);
+}
+
+.overclown{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: aqua;
+}
+#bannerBgimg{
+    background-image: url(http://gerotipo.com.mx/wp-content/uploads/2018/08/tazas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    /*padding: 250px;*/
+}
+#cszimng{
+    height: 200px;
+    width: 300px;
+}
+#tartsize{
+    
+}
+@media screen {
+    
+}
