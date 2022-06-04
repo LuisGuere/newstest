@@ -13,40 +13,68 @@
 </head>
 <body>
     <!--Barra de navegación-->
-    <nav class="navbar navbar-expand-sm bg-dark">
-        <div class="container-fluid justify-content-end">
-            <div class="row">
-                <div class="col-sm-12">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Catálogo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Registro</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Iniciar sesión</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>            
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Tartaros Abyss</a>
+          <button class="navbar-toggler btn-secondary bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Catálogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Registro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Iniciar sesión</a>
+              </li>          
+            </form>
+          </div>
         </div>
-    </nav>
-    <!--Banner Principal-->
-    <div class="container-fluid bgr">
+      </nav>
+          <!--jumbotron-->
+    <div class="container-fluid py-5">
         <div class="row">
-            <div id="bannerBgimg" class="col-sm-12 justify-content-center text-center text-light bg-dark">
+            <div class="col-sm-12">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="mt-4 p-5 text-white rounded" style="background-color: purple;">
+                            <h1>Sublimación...</h1>
+                            <p>La sublimación es un proceso en el cual la tinta impresa en el papel se transfiere por medio de calor a los objetos, pasando de estado sólido a estado gaseoso permitiendo que la imágen se impregne a un objeto recubierto de polímero. Este tipo de personalización tiene la carcaterística de conservar su impresión por un largo tiempo.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="mt-4 p-5 bg-dark text-white rounded">
+                            <h1>Viniles...</h1>
+                            <p>Es un material sintético que previamente cortado con un plotter se utiliza para personalizar diversos artículos y superficies con sus distintos tipos de material. Een el caso del <b>Vinil textil</b> se pueden trazar diseños y aplicarlos sobre casi cualquier tipo de prenda.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div> 
+            </div>
+        </div>
+    </div>
+    <!--Banner Principal-->
+    <div class="container-fluid bgr bg-dark">
+        <div class="row">
+            <div id="" class="col-sm-12 justify-content-center text-center text-light bg-dark d-block">
                 <div id="overclown" class="container bg-dark bg-opacity-50">
-                    <h1 class="h1">Tartaros Abyss</h1>
-                    <p class="p">Productos personalizados para ti.</p>
+                    <img src="http://gerotipo.com.mx/wp-content/uploads/2018/08/tazas.jpg" alt="" class="img-fluid mx-auto d-block">
                 </div>
-                <!--<img src="http://gerotipo.com.mx/wp-content/uploads/2018/08/tazas.jpg" alt="" class="img-fluid mx-auto d-block">-->
             </div>            
         </div>
     </div>
@@ -71,7 +99,7 @@
                 <div class="container-fluid">
                     <img class="img-thumbnail" src="https://tegrapromocionales.com.mx/wp-content/uploads/SB-04.jpg" alt="">
                     <h3>Aceros</h3>
-                    <p>Te presntamos contenedores de alta calidad para mantener a distintas temperaturas tus bebidas.</p>
+                    <p>Te presentamos contenedores de alta calidad para mantener a distintas temperaturas tus bebidas.</p>
                 </div>
             </div>
         </div>
@@ -105,52 +133,122 @@
             </div>
         </div>
     </div>
-    <!--comentarios-->
-
-    <!--jumbotron-->
-    <div class="container-fluid py-5">
+    <!--Productos listado-->
+    <div class="container-fluid bg-light py-4">
+        <div class="row d-flex">
+            <div class="col-md-8 col-lg-6 d-flex justify-content-center py-2">
+                <h1 class="h2 text-dark">Consulta nuestras promociones de</h1>               
+            </div>
+            <div class="col-md-4 col-lg-6 d-flex justify-content-center py-1">
+                <h1><span class="h1 badge bg-dark">Junio</span></h1>
+            </div>
+        </div>
+    </div>    
+    <!--Testimonios-->
+    <div class="container-fluid d-flex justify-content-center bg-dark py-4">
         <div class="row">
-            <div class="col-sm-12">
-                <div class="mt-4 p-5 bg-primary text-white rounded">
-                    <h1>Sublimación...</h1>
-                    <p>La sublimación es un proceso en el cual la tinta en el papel impreso se transfiere por medio de calor a los objetos, pasando de estado sólido a estado gaseoso. Lo que hace que el producto se mas duradero</p>
+            <div class="col-sm-12 col-md-4 d-flex justify-content-center py-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://c.tenor.com/NSOY5CU8wpMAAAAC/illidan-warcraft3.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Illidan Stormrage</h5>
+                        <p class="card-text">Completamente recomendable, por más demonios que mate, nunca se le caen las marcas a mis armas.</p>
+                    </div>
                 </div>
             </div>
+            <div class="col-sm-12 col-md-4 d-flex justify-content-center py-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://c.tenor.com/Hd3NJ72KbIgAAAAM/blood-mage-warcraft3.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kael'Thas Sunstrider</h5>
+                        <p class="card-text">Un hermoso detalle para cualquier ocasión, incluso en temperaturas altas no pierde su calidad.</p>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-sm-12 col-md-4 d-flex justify-content-center py-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://c.tenor.com/m9vKjJGX9l8AAAAM/jaina-warcraft3.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jaina Proudmoore</h5>
+                        <p class="card-text">No tenia idea de que reglao escoger y me ayudaron en todo momento. Muchas gracias!</p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <!--News Letter-->
+    <div class="container-fluid py-3">
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvm0arqALjXLW5w_RU80IiK3aNgaee7lLTKL0vR6EPOntj1S1--Vq_laAZDH9Ge_O2LEo&usqp=CAU" alt="">
+            </div>
+            <div class="col-lg-auto">
+                <h1 class="h1">Únete a nuestro NewsLetter </br> y recibe nuestras promociones</br> semanales</h1>            
+            </div>            
+        </div>
+        <div class="row py-3">
+            <div class="col-lg-4">
+                <label for="exampleFormControlInput1" class="form-label">
+                    <h5 class="">Suscribete a nuestro NewsLetter</h1>
+                </label>
+            </div>                        
+            <div class="col-lg-4">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">               
+            </div>
+            <div class="col-lg-4">
+                <button type="button" class="btn btn-dark">Suscribirse</button>
+            </div>
+        </div>
         </div>
     </div>
     <!--Footer-->
     <footer>
-        <div class="container-fluid bg-dark py-3">
+        <div class="container-fluid bg-dark py-3 text-light">
             <div class="row">
                 <div class="col-sm-4">
+                    <!--
                     <picture>
-                        <img style="width: 70%;" class="img-fluid mx-auto d-block" src="imgs/tartaros.png" alt="">
+                        <img style="width: 70%;" class="img-fluid mx-auto d-block" src="imgs/tartaros.png" alt="" id="tartaroslogo">
                     </picture>
+                    -->
                 </div>
                 <div class="col-sm-4">
-                    <h1 class="h3 text-light py-3">Nosotros</h1>
+                    <h1 class="h3 py-3">Nosotros</h1>
                     <ul class="list-group bg-dark justify-content-end">
-                        <li class="list-group-item bg-dark"><a href="#">Chat</a></li>
-                        <li class="list-group-item bg-dark"><a href="#">¿Quienes somos?</a></li>
-                        <li class="list-group-item bg-dark"><a href="#">Bolsa de trabajo</a></li>
+                        <li class="list-group-item bg-dark"><a class="link-light" href="#">Chat</a></li>
+                        <li class="list-group-item bg-dark"><a class="link-light" href="#">¿Quienes somos?</a></li>
+                        <li class="list-group-item bg-dark"><a class="link-light" href="#">Bolsa de trabajo</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-4">
-                    <h1 class="h3 text-light py-3">Comunidad</h1>
-                    <ul>
-                        <li class="list-group-item bg-dark"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="list-group-item bg-dark"><a href=""><i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="list-group-item bg-dark"><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i>
-                            </a>
-                        </li>
+                    <h1 class="h3 py-3">Comunidad</h1>
+                    <ul class="list-group bg-dark justify-content-end">
+                        <li class="list-group-item bg-dark"><a class="link-light" href="#">FAQ's</a></li>
+                        <li class="list-group-item bg-dark"><a class="link-light" href="#">Soporte</a></li>
+                        <li class="list-group-item bg-dark"><a class="link-light" href="#">Blog</a></li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </footer>    
+            <div class="row">
+                <div class="col-lg-12 py-3">
+                    <p class="text-light">Tartaros Abyss Inc. 2022</p>
+                </div>
+            </div>
+            <!--            
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="container-flex">
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/09ae607a71.js"></script>    
 </body>
 </html>
